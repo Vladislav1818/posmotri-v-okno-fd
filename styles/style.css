@@ -151,7 +151,7 @@ ol {
 }
 
 .content__video-card-title {
-  display: -webkit-box;
+  
   width: 196px;
   overflow: hidden;
   font-family: 'Oswald', 'Arial Narrow', Arial, sans-serif;
@@ -297,11 +297,12 @@ ol {
 }
 
 .content__card-link:hover {
-  opacity: 0.7;                 
+  text-decoration: underline;
+  text-underline-offset: 5px;
 }
 
 .content__card-link:active {
-  opacity: 0.5;                
+   background-color: #545050;
 }
 
 .content__card-link_current {
